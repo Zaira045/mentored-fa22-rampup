@@ -1,4 +1,8 @@
 /* .name to define css of classes */
+
+html {
+    background-color: #F5EFE6;
+}
 .flex-container {
     /* to use flexbox, must have the display:flex line */
     display:flex;
@@ -7,16 +11,30 @@
 }
 .gameTitle {
     display: flex;
-    background-color: bisque;
     justify-content: center;
-
+    font-size: 1.5rem;
+    color: #AC7088;
+    /* padding-top: -15%;
+    padding-bottom: -15%; */
+    margin-top: -1%;
+    margin-bottom: -1%;
+}
+.topButtons{
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .sName {
     font-size: 3rem;
+    color: #DEB6AB;
 }
 .sArtist{
     font-size: 1.5rem;
+    color:  #ECCCB2;
 }
 .trackInfo {
     display: flex;
@@ -24,21 +42,28 @@
     align-items: center;
 
 }
+.opts {
+    background-color: #E8DFCA;
+    border-color: #AC7088;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
 /* .opt1{
-    margin-right: 10%;
-    
+    padding: auto;
 }
 .opt2{
-    margin-right: 10%;
-} */
-/* .opt3{
+    
+}  */
+/* /* .opt3{
     display: flex;
     margin-right: 10%;
     
 } */
 .options{
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
     display: flex;
     flex-direction: row;
     align-items: center;

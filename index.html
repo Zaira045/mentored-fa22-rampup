@@ -6,78 +6,37 @@
         <!-- Connects base.js to base.html -->
         <script src="script.js"></script>
     </head>
-    <div>
-        <h1 calss = "gameTitle">Guess the Song! </h1>
-        <div>
-            <button class = 'newSong' onclick="loadTrack()">Generate Random Song</button>
-            <br>
-            <button class = "play">Play Song</button>
-            <br>
-            <div class = "trackInfo">
-                <img class="sImg" src="https://codebase.berkeley.edu/static/238f7857e162c32b372ec34e5e68b6ff/8dcbd/cb-logo-black.png">
-                <!-- <div class = "sImg" >Track Image</div> -->
-                <div class = "sName">Track Name</div>
-                <!-- <div class = "namee">This name</div> -->
-                <div class = "sArtist">Track Artist</div>
-                
-            </div>
-            <br>
-            <div class = 'options'>
-                <button class = 'opt1' onclick="checker(1)">Option 1</button>
-                <button class = 'opt2' onclick="checker(2)">Option 2</button>
-                <button class = 'opt3' onclick="checker(3)">Option 3</button>
-            </div>
-
-
-
-        </div>
-        <div>
-            <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6UeSakyzhiEt4NB3UAd6NQ?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
-
-
-        </div>
-
-
-    </div>
-
-        <h1>Header 1</h1>
-        <h2>Header 2</h2>
-        <h3>Header 3</h3>
-        <div>
-            <p class="text">This is the beginning of Mentored!</p>
-            <p class="text">I am super excited!!!</p>
-        </div>
     <body id="body">
-        <div class="flex-container">
-            <a href="https://codebase.berkeley.edu">Press here to go to Codebase Website</a>
-            <img class="image" src="https://codebase.berkeley.edu/static/238f7857e162c32b372ec34e5e68b6ff/8dcbd/cb-logo-black.png">
-            <img class="image" src="https://larynqi.com/assets/img/denero-crop-2.PNG">
-            <iframe id="iframe" src="https://larynqi.com" title="description"></iframe>
-            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-        </div>
-        <div class="interactive">
-            <center>
-                <button class="button" onclick="alert('this is the inline js way – dont do this way !!! 😡');">Press</button>
-                <button class="button" id="my-id" onclick="myFunction()">Press me 2</button>
-            </center>
-        </div>
-        <center>
-            <form class="form" onsubmit="submit();">
-                <label>Username:</label>
-                <input id="username" type="text" name="username" placeholder="xXlarynisawesomeXx">
-                <br><br>
-                
-                <label>E-mail:</label>
-                <input id="email" type="email" name="emailaddress" required="true">
-                <br><br>
+        <div>
+            <div class = "gameTitle"> 
+                <h1>Guess the Song! </h1>
+            </div>
+            <div>
+                <div class = "topButtons">
+                    <button class = 'newSong opts' onclick="loadTrack()">Generate Random Song</button>
+                    <button class = 'play opts' onclick="playAud()">Play Song</button>
+                    <button class = 'play opts' onclick="pauseAud()">Pause Song</button>
+                    <!-- <button class = "play opts" onclick="playAud()">Play Song</button>
+                    <button class = "play opts" onclick="pauseAud()">Pause Song</button> -->
+                </div>
+                <br>
+                <div class = "trackInfo">
+                    <img class="sImg" src="https://seeklogo.com/images/A/apple-music-logo-4FBA5FADCC-seeklogo.com.png">
+                    <div class = "sName">Generate a random song</div>
+                    <div class = "sArtist"> </div>
+                    
+                </div>
+                <br>
+                <div class = 'options'>
+                    <button class = 'opt1 opts' onclick="checker(1)">Option 1</button>
+                    <button class = 'opt2 opts' onclick="checker(2)">Option 2</button>
+                    <button class = 'opt3 opts' onclick="checker(3)">Option 3</button>
+                </div>
 
-                <label>Password:</label>
-                <input id="password" type="password" name="password">
-                <br><br>
 
-                <input type="submit" value="Submit"/>
-            </form>
-    </center>
+
+            </div>
+        </div>
     </body>
 </html>
 
