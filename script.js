@@ -1,17 +1,3 @@
-// function myFunction() {
-//   alert("This is the correct way to do js ☺️ 😊🥰👉👈");
-// }
-
-// function submit() {
-//     username = document.getElementById('username');
-//     email = document.getElementById('email');
-//     password = document.getElementById('password');
-//     alert('Username:', username.value, 'Email:', email.value, 'Password:', password.value);
-//     return false;
-// }
-
-console.log("Hello 11");
-
 const tracks = [
   { 
     name: "As It Was",
@@ -59,7 +45,7 @@ const tracks = [
     name: "I Ain't Worried",
     artist: "OneRepublic",
     imageAddress: "https://i.scdn.co/image/ab67616d0000b273ec96e006b8bdfc582610ec13",
-    audio: "songs/OneRepublic - I Ain’t Worried.mp3"
+    audio: "songs/OneRepublic - I ain't worried.mp3"
   },
   {
     name: "Provenza",
@@ -71,10 +57,11 @@ const tracks = [
     name: "Despecha",
     artist: "Rosalía",
     imageAddress: "https://static.stereogum.com/uploads/2022/07/Rosalia-Despecha-1659015613.jpg",
-    audio: "songs/ROSALÍA - DESPECHA.mp3"
+    audio: "songs/Rosalia despecha.mp3"
   }
 ];
 let currentSong = tracks[0];
+var songAud = new Audio(currentSong.audio);
 
 function randSong(){
   var randIdx = Math.random() * tracks.length;
@@ -96,7 +83,6 @@ function generateRandSongs(){
 function pickRandSong(lst){
   return lst[parseInt(Math.random() * lst.length, 10)];
 };
-var songAud = new Audio(currentSong.audio);
 function loadTrack(){
   songAud.pause();
   let songName = document.querySelector(".sName")
@@ -111,11 +97,7 @@ function loadTrack(){
   songImg.src = "https://seeklogo.com/images/A/apple-music-logo-4FBA5FADCC-seeklogo.com.png";
   for (let i = 1; i < threeSongs.length + 1; i ++) {
     let currButton = document.querySelector(".opt" + i);
-    console.log(currButton.textContent);
-    console.log(currButton.className);
-    console.log(".opt" + i);
     currButton.textContent = threeSongs[i - 1].name;
-    console.log(i - 1);
   };
 };
 
@@ -135,7 +117,5 @@ function checker(num){
     buttonClicked.textContent = "Correct!";
   } else {
     buttonClicked.textContent = "Wrong!";
-  }
-
-  
+  }  
 };

@@ -7,7 +7,6 @@ html {
     /* to use flexbox, must have the display:flex line */
     display:flex;
     flex-direction:row-reverse;
-
 }
 .gameTitle {
     display: flex;
