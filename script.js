@@ -58,6 +58,12 @@ const tracks = [
     artist: "Rosalía",
     imageAddress: "https://static.stereogum.com/uploads/2022/07/Rosalia-Despecha-1659015613.jpg",
     audio: "songs/Rosalia despecha.mp3"
+  }, 
+  {
+    name: "Everything Goes On",
+    artist: "Porter Robinson",
+    imageAddress: "https://upload.wikimedia.org/wikipedia/en/a/a7/Everything_Goes_On_single_cover.jpg",
+    audio: "songs/Everything Goes On - Porter Robinson.mp3"
   }
 ];
 let currentSong = tracks[0];
