@@ -3,67 +3,67 @@ const tracks = [
     name: "As It Was",
     artist: "Harry Styles",
     imageAddress: "https://media.architecturaldigest.com/photos/623e05e0b06d6c32457e4358/master/pass/FINAL%20%20PFHH-notextwlogo.jpg",
-    audio: "songs/asItWas.mp3"
+    audio: "Songs/asItWas.mp3"
   },
   {
     name: "Let's Stay Together",
     artist: "Al Green",
     imageAddress: "https://upload.wikimedia.org/wikipedia/en/0/0e/Letsstaytogether_cover.jpg",
-    audio: "songs/letsstaytogether.mp3"
+    audio: "Songs/letsstaytogether.mp3"
   },
   {
     name: "Me Porto Bonito",
     artist: "Bad Bunny",
     imageAddress: "https://media.pitchfork.com/photos/627425dbc85171592b8a6e6a/1:1/w_600/Bad-Bunny-Un-Verano-Sin-Ti.jpg",
-    audio: "songs/mePortoBonito.mp3"
+    audio: "Songs/mePortoBonito.mp3"
   },
   {
     name: "Bad Habit",
     artist: "Steve Lacy",
     imageAddress: "https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_auto,w_1400/fl_lossy,pg_1/i5icyjxrapjnnavdep6w/gemini-rights?fimg-ssr-default",
-    audio: "songs/badHabit.mp3"
+    audio: "Songs/badHabit.mp3"
   },
   {
     name: "Pink Venom",
     artist: "Blackpink",
     imageAddress: "https://upload.wikimedia.org/wikipedia/en/c/cb/Pink_Venom_Cover.jpg",
-    audio: "songs/pinkVenom.mp3"
+    audio: "Songs/pinkVenom.mp3"
   },
   {
     name: "Hotel California",
     artist: "Eagles",
     imageAddress: "https://upload.wikimedia.org/wikipedia/en/4/49/Hotelcalifornia.jpg",
-    audio: "songs/hotelCalifornia.mp3"
+    audio: "Songs/hotelCalifornia.mp3"
   },
   {
     name: "Glimpse of Us",
     artist: "Joji",
     imageAddress: "https://upload.wikimedia.org/wikipedia/en/4/4a/Joji_-_Glimpse_of_Us.png",
-    audio: "songs/glimpseOfUs.mp3"
+    audio: "Songs/glimpseOfUs.mp3"
   },
   {
     name: "I Ain't Worried",
     artist: "OneRepublic",
     imageAddress: "https://i.scdn.co/image/ab67616d0000b273ec96e006b8bdfc582610ec13",
-    audio: "songs/iAintWorred.mp3"
+    audio: "Songs/iAintWorred.mp3"
   },
   {
     name: "Provenza",
     artist: "Karol G",
     imageAddress: "https://i.scdn.co/image/ab67616d0000b273e70c454b8989f09d1e11ea92",
-    audio: "songs/provenza.mp3"
+    audio: "Songs/provenza.mp3"
   },
   {
     name: "Despecha",
-    artist: "Rosalia",
+    artist: "Rosala",
     imageAddress: "https://static.stereogum.com/uploads/2022/07/Rosalia-Despecha-1659015613.jpg",
-    audio: "songs/despecha.mp3"
+    audio: "Songs/despecha.mp3"
   }, 
   {
     name: "Everything Goes On",
     artist: "Porter Robinson",
     imageAddress: "https://upload.wikimedia.org/wikipedia/en/a/a7/Everything_Goes_On_single_cover.jpg",
-    audio: "songs/everythingGoesOn.mp3"
+    audio: "Songs/everythingGoesOn.mp3"
   }
 ];
 let currentSong = tracks[0];
