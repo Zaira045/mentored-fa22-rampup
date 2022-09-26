@@ -55,7 +55,7 @@ const tracks = [
   },
   {
     name: "Despecha",
-    artist: "Rosalía",
+    artist: "Rosalia",
     imageAddress: "https://static.stereogum.com/uploads/2022/07/Rosalia-Despecha-1659015613.jpg",
     audio: "songs/despecha.mp3"
   }, 
